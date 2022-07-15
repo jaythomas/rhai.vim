@@ -6,7 +6,7 @@ endif
 syn keyword rhaiConditional
  \ if else
 syn keyword rhaiRepeat
- \ for while loop in
+ \ do while loop until for in
 syn keyword rhaiStatement
  \ return break continue
 syn keyword rhaiKeyword
@@ -40,9 +40,10 @@ syn keyword rhaiBoolean
 
 " Reserved
 syn keyword rhaiReserved
- \ var static shared do each then goto exit switch
- \ match case public new use with module package thread spawn go await
- \ async sync yield default void null nil
+ \ var static is goto exit switch
+ \ match case public protected new use with module package super
+ \ spawn thread go sync async await yield
+ \ default void null nil
 
 " Operators
 syn match rhaiOperator
