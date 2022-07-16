@@ -1,7 +1,41 @@
-# Rhai.vim
+# vim-rhai
 
-Vim syntax plugin for the [rhai language](https://schungx.github.io/rhai).
+Vim/Neovim syntax plugin for the [Rhai scripting language](https://rhai.rs/).
 
+<!-- TOC generated using the command `npx doctoc README.md -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+- [Installation](#installation)
+- [TODO](#todo)
+- [License](#license)
+- [Contribution](#contribution)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+[![vim-rhai syntax highlight in action](screenshot.png)](screenshot.png)
+
+
+## Installation
+
+To install using [Vim-Plug](https://github.com/junegunn/vim-plug):
+
+```vim
+" add this line to your .vimrc file
+Plug 'rhaiscript/vim-rhai'
+```
+
+To install using [Vundle](https://github.com/gmarik/vundle):
+
+```vim
+" add this line to your .vimrc file
+Plugin 'rhaiscript/vim-rhai'
+```
+
+To install using [pathogen.vim](https://github.com/tpope/vim-pathogen):
+
+```sh
+git clone https://github.com/rhaiscript/vim-rhai.git ~/.vim/bundle/vim-rhai
+```
 
 ## TODO
 
